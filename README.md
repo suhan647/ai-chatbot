@@ -1,4 +1,4 @@
-project live link : https://ai-chatbot-mhxc.vercel.app/
+project live link : https://ai-chatbot-virid-two.vercel.app/
 
 ## Getting Started
 
