@@ -65,7 +65,7 @@ export default function Chatbot() {
   };
 
   return (
-    <div className="w-full max-w-xl mx-auto bg-white/80 dark:bg-black/60 rounded-2xl shadow-2xl p-4 sm:p-8 flex flex-col h-[70vh] border border-gray-200 dark:border-gray-800">
+    <div className="w-full max-w-xl mx-auto  dark:bg-black/60 rounded-2xl shadow-2xl p-4 sm:p-8 flex flex-col h-[70vh] border border-gray-200 dark:border-gray-800">
       <div className="flex-1 overflow-y-auto pr-2 mb-2">
         <AnimatePresence initial={false}>
           {messages.map((msg, idx) => (
@@ -112,7 +112,7 @@ export default function Chatbot() {
       <form onSubmit={sendMessage} className="flex gap-2 mt-2">
         <input
           type="text"
-          className="flex-1 rounded-xl border border-gray-300 dark:border-gray-700 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 dark:bg-black/80 dark:text-white bg-white shadow"
+          className="flex-1 rounded-xl border border-gray-300 dark:border-gray-700 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 dark:bg-black/80 shadow"
           placeholder="Type your message..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
